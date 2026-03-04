@@ -47,7 +47,7 @@ if __name__ == '__main__':
     print('bonus')
     for i in range(11):
         for j in range(11):
-            if i == 5 or j == 5:
+            if i == j or i + j == 10:
                 print('🌷', end='')  
             else:
                 print('🌱', end='')  
